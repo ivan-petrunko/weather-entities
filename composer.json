@@ -1,0 +1,26 @@
+{
+    "name": "ivan-petrunko/weather-entities",
+    "description": "PHP weather entities.",
+    "keywords": ["php", "weather", "entities"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Petrunko",
+            "email": "ivan@petrunko.com",
+            "homepage": "https://petrunko.com/"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Petrunko\\Weather\\Entity\\": "src/Petrunko/Weather/Entity/"
+        }
+    },
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true
+    }
+}
